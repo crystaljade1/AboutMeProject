@@ -14,6 +14,7 @@
 		82FE68291F03E7360025A01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FE68271F03E7360025A01D /* LaunchScreen.storyboard */; };
 		82FE68341F03E7360025A01D /* AboutMeProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE68331F03E7360025A01D /* AboutMeProjectTests.swift */; };
 		82FE683F1F03E7360025A01D /* AboutMeProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE683E1F03E7360025A01D /* AboutMeProjectUITests.swift */; };
+		82FE684D1F040DB10025A01D /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE684C1F040DB10025A01D /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		82FE683A1F03E7360025A01D /* AboutMeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutMeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FE683E1F03E7360025A01D /* AboutMeProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeProjectUITests.swift; sourceTree = "<group>"; };
 		82FE68401F03E7360025A01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FE684C1F040DB10025A01D /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				82FE681E1F03E7360025A01D /* AppDelegate.swift */,
 				82FE68201F03E7360025A01D /* ViewController.swift */,
+				82FE684C1F040DB10025A01D /* DetailsViewController.swift */,
 				82FE68221F03E7360025A01D /* Main.storyboard */,
 				82FE68251F03E7360025A01D /* Assets.xcassets */,
 				82FE68271F03E7360025A01D /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				82FE68211F03E7360025A01D /* ViewController.swift in Sources */,
 				82FE681F1F03E7360025A01D /* AppDelegate.swift in Sources */,
+				82FE684D1F040DB10025A01D /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
